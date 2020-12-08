@@ -20,10 +20,11 @@ New training data can be provided and used to update the model. More precisely, 
 
 <h5>To run the web app:</h5>
 
-Execute the Python file 'run.py' in the 'app' folder via the command line: python run.py
-Go to http://0.0.0.0:3001/ in a browser.
+Execute the Python file 'run.py' in the 'app' folder via the command line: 
+<br>python run.py
+<br>Go to http://0.0.0.0:3001/ in a browser.
 
-</h2>Files</h2>
+<h2>Files</h2>
 
 data contains the ETL pipeline (process_data.py) and the CSV input files plus the ETL pipeline output, an SQLite database.
 
