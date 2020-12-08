@@ -26,4 +26,6 @@ Go to http://0.0.0.0:3001/ in a browser.
 
 data contains the ETL pipeline (process_data.py) and the CSV input files plus the ETL pipeline output, an SQLite database.
 
-models contains the ML pipeline (train_classifier.py) with its output, i.e. a Python pickle file with the best model from testing different classifiers and parameters. That pickle file is used in the app to classify new messages. and a Python pickle file with input for some of the graphs in the app.
+models contains the ML pipeline (train_classifier.py) with its output, i.e. a Python pickle file
+
+app contains the web application.
