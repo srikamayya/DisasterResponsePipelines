@@ -13,10 +13,10 @@ New training data can be provided and used to update the model. More precisely, 
 <h5>To run the pipelines:</h5>
 
 1.Run the ETL pipeline via the command line in the data folder:
-<br>python python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+<br>python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 
 2.Run the ML pipeline via the command line in the models folder. The best model and its score are printed:
-<br>python python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+<br>python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 
 <h5>To run the web app:</h5>
 
