@@ -24,6 +24,8 @@ Execute the Python file 'run.py' in the 'app' folder via the command line:
 <br>python run.py
 <br>Go to http://0.0.0.0:3001/ in a browser.
 
+<li> https://github.com/srikamayya/DisasterResponsePipelines </li>
+
 <h2>Files</h2>
 
 data folder contains the ETL pipeline (process_data.py) and the CSV input files plus the ETL pipeline output, an SQLite database.
