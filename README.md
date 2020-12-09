@@ -26,8 +26,8 @@ Execute the Python file 'run.py' in the 'app' folder via the command line:
 
 <h2>Files</h2>
 
-data contains the ETL pipeline (process_data.py) and the CSV input files plus the ETL pipeline output, an SQLite database.
+data folder contains the ETL pipeline (process_data.py) and the CSV input files plus the ETL pipeline output, an SQLite database.
 
-models contains the ML pipeline (train_classifier.py) with its output, i.e. a Python pickle file
+models folder contains the ML pipeline (train_classifier.py) with its output, i.e. a Python pickle file
 
-app contains the web application.
+app folder contains the web application.
