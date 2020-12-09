@@ -6,7 +6,7 @@ A new message is classified into categories – like 'aid related', 'search and 
 New training data can be provided and used to update the model. More precisely, data cleaning and storing in a database can be performed using an ETL pipeline, and training the classifier and providing the best model to the web app can be performed using a Machine Learning (ML) pipeline.
 
 <h2>Requirements</h2>
-<br>Python 3 mainly with the packages Pandas, nltk and sqlalchemy to run the web app. To use the pipelines mainly numpy and sklearn are needed.</br>
+<br>Python 3 mainly with the packages Pandas, joblib, nltk and sqlalchemy to run the web app. To use the pipelines mainly numpy and sklearn are needed.</br>
 
 <h2>Instructions</h2>
 
